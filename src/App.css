@@ -1,0 +1,118 @@
+@import url("../node_modules/bootstrap/dist/css/bootstrap.min.css");
+@import url('../node_modules/bootstrap-icons/font/bootstrap-icons.css');
+
+
+
+.search-area{
+  position: relative;
+}
+
+.search-input{
+  width: 300px;
+  border: 1px solid #ccc;
+  padding: 5px 10px;
+  border-radius: 5px;
+
+}
+
+.search-icon{
+  position: absolute;
+  right: 0;
+  top: 5px;
+  margin-right: 15px;
+}
+
+.navbar-brand{
+  font-size: 32px;
+  padding-left: 60px;
+}
+
+.menu-icon{
+  font-size: 25px;
+}
+
+.preview-section{
+  max-height: 700px;
+  background-image: url('https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE4MCcc');
+  /* background-color: #b0afaf; */
+  background-size:cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.home-text{
+  margin: 200px 20px;
+}
+
+.home-title{
+  color: #222;
+}
+
+.card{
+  width: 200px;
+  padding: 5px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border: none;
+  /* margin-bottom: 40px; */
+
+  
+}
+
+
+.card-img{
+  height: 150px;
+  object-fit: contain;
+  object-position:center;
+}
+
+.deal-img{
+  height: 150px;
+  object-fit: cover;
+  object-position:center;
+}
+
+.card-description{
+  color: #444
+}
+
+.card-icon{
+  font-size: 12px;
+  border: 1px solid #fff;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  width: 10px;
+  height: 10px;
+  padding: 7px;
+  border-radius: 50%;
+  background-color: #fff;
+}
+
+
+.deal-section{
+  background-color: rgb(4, 4, 60);
+}
+
+.deal-card{
+  height: 400px;
+  margin-top: 20px;
+}
+
+.deal-text{
+  color: #ddd;
+  margin-top: 100px;
+}
+
+.deal-description{
+  font-size: 12px;
+}
+
+ul li{
+  list-style-type: none;
+  color: #555;
+}
+
+.footer-card{
+  width: 20%;
+}
+
+
+
